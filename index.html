@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/library.min.css" />
+  <link rel="stylesheet" href="css/custom.min.css" />
+  <base href="/">
+  <title>Prosjekt</title>
+</head>
+
+<body ng-app="dtoApp" ng-controller="MainCtrl">
+  <ng-include src="'partials/meny.html'"></ng-include>
+  <span ui-view layout-padding></span>
+  <script type="text/javascript" src="js/libraries.min.js"></script>
+  <script type="text/javascript" src="app.min.js"></script>
+</body>
+
+</html>
